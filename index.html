@@ -1,10 +1,125 @@
-<!doctype html>
-<html>
+Here’s a modern HTML template for a personal page, including a section for your photo and links to other personal sites. This template uses CSS Flexbox for a modern layout and is responsive for various devices. You can customize it according to your preferences.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Peter Gladilin personal page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .links a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  
-<p>Hi there! this is my prsonal page!</p>
+
+<header>
+    <h1>Welcome to My Personal Page</h1>
+</header>
+
+<div class="container">
+    <div class="profile">
+        <img src="your-photo-url.jpg" alt="Your Name">
+        <div>
+            <h2>Your Name</h2>
+            <p>I'm a [Your Profession or Hobby]. I love [Your Interests].</p>
+        </div>
+    </div>
+
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et eros nisi. Sed malesuada nulla at metus pharetra, vel tincidunt augue placerat.</p>
+
+    <h2>Links to My Other Sites</h2>
+    <div class="links">
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+        <a href="https://your-blog.com" target="_blank">Blog</a>
+        <a href="https://github.com/your-username" target="_blank">GitHub</a>
+        <a href="https://twitter.com/your-username" target="_blank">Twitter</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2023 [Your Name]. All Rights Reserved.
+</footer>
+
 </body>
 </html>
+```
+
+### Instructions to Customize:
+1. **Photo:** Replace `your-photo-url.jpg` with the URL of your photo. You can also replace it with a local path if hosting the image.
+2. **Your Name:** Insert your actual name where indicated and update your profession and interests accordingly.
+3. **About Me:** Modify the "About Me" section with your information.
+4. **Links:** Update the href attributes in the "Links to My Other Sites" section with your actual profile links.
+5. **Styling:** Feel free to adjust the styles in the `<style>` section to fit your personal aesthetic.
+
+Save the code in a file with a `.html` extension (e.g., `index.html`), and open it in a web browser to see your personal page!
