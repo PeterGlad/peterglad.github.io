@@ -1,23 +1,18 @@
 # Peter Gladilin — Personal Website
 
-A responsive, static personal portfolio designed for GitHub Pages.
+Static, responsive personal portfolio for GitHub Pages.
 
-## Preview locally
-Open `index.html` in a browser, or run a local static server:
-`python3 -m http.server 8000`
+## Files
+- `index.html` — page content and professional links
+- `styles.css` — dark editorial design and responsive layout
+- `script.js` — mobile navigation and current year
+- `peter.jpeg` — profile photo retained from the original repository
+- `.nojekyll` — GitHub Pages configuration marker
 
 ## Publish
-Commit and push the contents of this folder to the `main` branch of
-`PeterGlad/peterglad.github.io`. GitHub Pages can serve the root `index.html`.
+Upload the contents of this folder to the root of `PeterGlad/peterglad.github.io` on the `main` branch.
 
-## Next content pass
-Replace the clearly marked draft/placeholder copy with verified details:
-- professional summary, technical domains and selected projects
-- exact roles, employers, dates and links
-- courses, publications, dissertation and student-supervision examples
-- photography and music galleries
-- travel destinations and routes
-- sports photos and selected events
+## Professional links
+LinkedIn, GitHub, ITMO University profile, Google Scholar, CV (Google Drive), and dissertation.
 
-The current version intentionally does not invent publications, course titles,
-project outcomes, dates or sports achievements.
+The CV is linked as a shared Google Drive PDF. Make sure its sharing setting allows visitors with the link to view it.
